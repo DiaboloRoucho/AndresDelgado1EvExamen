@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:background="@drawable/borde_redondo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+
+
+
+        <TextView
+            android:id="@+id/itemNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="numero"
+            android:textColor="#a4a4a4"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/itemTiempo"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tiempo"
+            android:textSize="17dp"
+            android:textColor="#a4a4a4"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="279dp" />
+</LinearLayout>
